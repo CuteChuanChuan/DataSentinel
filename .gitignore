@@ -1,5 +1,25 @@
-*.class
-*.log
+# sbt specific
+target/
+project/target/
+project/project/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# IntelliJ specific
+.idea/
+*.iml
+*.iws
+out/
+
+# Scala specific
+*.class
+.cache/
+lib_managed/
+src_managed/
+dist/
+logs/
+.DS_Store
+.metals/
+.bloop/
+.vscode/
+.worksheet/
+
+.bsp/
